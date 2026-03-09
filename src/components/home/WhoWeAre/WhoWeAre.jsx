@@ -88,7 +88,7 @@
 //                 loop
 //                 className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-[2s]"
 //               >
-//                 <source src="/kaller3.mp4" type="video/mp4" />
+//                 <source src="/kaller3.webm" type="video/mp4" />
 //               </video>
 
 //               {/* نص فوق الفيديو */}
@@ -267,7 +267,7 @@
 //                 autoPlay muted loop playsInline
 //                 className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-[3s] ease-out grayscale-[0.5] group-hover:grayscale-0"
 //               >
-//                 <source src="/kaller3.mp4" type="video/mp4" />
+//                 <source src="/kaller3.webm" type="video/mp4" />
 //               </video>
 
 //               <div className="absolute bottom-6 left-6 z-20 flex items-center gap-4">
@@ -459,7 +459,7 @@ const IntentionalArchitecture = () => {
                 playsInline
                 className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-[3s] ease-out grayscale-[0.5] group-hover:grayscale-0"
               >
-                <source src="/kaller3.mp4" type="video/mp4" />
+                <source src="/kaller3.webm" type="video/mp4" />
               </video>
             </div>
           </div>

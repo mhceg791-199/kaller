@@ -449,7 +449,7 @@
 //       {/* Background Video (Subtle & Dark) */}
 //       <div className="absolute inset-0 opacity-20 pointer-events-none">
 //         <video autoPlay muted loop playsInline className="w-full h-full object-cover">
-//           <source src="/kaller3.mp4" type="video/mp4" />
+//           <source src="/kaller3.webm" type="video/mp4" />
 //         </video>
 //         <div className="absolute inset-0 bg-black/60" />
 //       </div>
@@ -614,7 +614,7 @@ const StoryExplodedView = () => {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/kaller3.mp4" type="video/mp4" />
+          <source src="/kaller3.webm" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/60" />
       </div>

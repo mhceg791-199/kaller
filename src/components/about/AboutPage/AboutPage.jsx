@@ -545,7 +545,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ownerImage from "../../../assets/about/Kaller.avif";
-import kaller from "/kaller2.mp4";
+import kaller from "/kaller2.webm";
 
 gsap.registerPlugin(ScrollTrigger);
 
