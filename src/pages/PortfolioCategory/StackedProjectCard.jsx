@@ -60,7 +60,7 @@ export const StackedProjectCard = memo(({ title, images }) => {
               {/* Title - only show on active card */}
               {isActive && (
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-xl md:text-2xl font-medium text-white drop-shadow-lg">
+                  <h3 className="text-base md:text-Sxl font-medium text-white drop-shadow-lg">
                     {title}
                   </h3>
                   <p className="text-sm text-gray-300 mt-2">
