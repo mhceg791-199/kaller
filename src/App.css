@@ -5,18 +5,20 @@
   --mainGold: #C5A363;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden !important;
 }
-body{
+
+body {
   background-color: var(--lightColor);
 }
 
 ::selection {
-    background-color:  rgb(54, 75, 160 , 0.9);
-    color: var(--lightColor);
+  background-color: rgb(54, 75, 160, 0.9);
+  color: var(--lightColor);
 }
 
 .text-header {
@@ -27,5 +29,30 @@ body{
   font-size: 38px;
 }
 
+.animate-spin-slow {
+  animation: spin 10s linear infinite;
+}
 
+.stroke-white-who {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
 
+.stroke-white-story {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+}
+
+@media (min-width: 768px) {
+  .stroke-white-story {
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

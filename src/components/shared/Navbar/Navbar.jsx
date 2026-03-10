@@ -34,7 +34,7 @@ export default function Navbar() {
             <img
               src={logo}
               alt="Kaller Architecture Logo"
-              className=" w-[25%] object-contain"
+              className="w-[65%] md:w-[25%] object-contain"
             />
           </Link>
 

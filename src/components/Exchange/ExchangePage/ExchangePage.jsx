@@ -42,7 +42,7 @@ export default function ExchangePage() {
         <SellingSteps />
 
         {/* Buying Section */}
-        <BuyingSteps/>
+        <BuyingSteps />
 
         {/* Property Listings Grid */}
         <section className="py-20 bg-gray-900">
@@ -80,7 +80,7 @@ export default function ExchangePage() {
                   <p className="text-white font-light mb-1">Hope Kaller</p>
                   <p className="text-white/80 text-sm mb-3">Lic: 3238392</p>
                   <img
-                    src="https://static.wixstatic.com/media/9d6bec_ef11f606a9af44c2bc67405d10a43a98~mv2.png/v1/fill/w_284,h_102,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/phillip-delgado-pa-miami-fl-real-estate-.png"
+                    src="/exchange/max.png"
                     alt="RE/MAX"
                     className="h-12 bg-white p-2 mx-auto md:mx-0"
                   />
@@ -91,7 +91,7 @@ export default function ExchangePage() {
                   </p>
                   <p className="text-white/80 text-sm mb-3">Lic: 3238392</p>
                   <img
-                    src="https://static.wixstatic.com/media/9d6bec_304cc727f1ad4a2aa56cd05bfa1e2612~mv2.jpg/v1/crop/x_42,y_80,w_596,h_185/fill/w_284,h_88,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/arn%20with%20r%20eq-1.jpg"
+                    src="/exchange/arn.jpg"
                     alt="ARN"
                     className="h-12 bg-white p-2 mx-auto md:mx-0"
                   />

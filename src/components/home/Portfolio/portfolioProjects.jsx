@@ -1,136 +1,14 @@
-// import { useState } from 'react';
-
-// // Portfolio data
-// const portfolioProjects = [
-//   {
-//     id: 1,
-//     title: 'Beachfront Residences',
-//     category: ['residential', 'mixed-use'],
-//     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop',
-//   },
-//   {
-//     id: 2,
-//     title: 'Modern Villa Estate',
-//     category: ['residential', 'education'],
-//     image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop',
-//   },
-//   {
-//     id: 3,
-//     title: 'Luxury Waterfront Complex',
-//     category: ['residential', 'mixed-use'],
-//     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
-//   },
-//   {
-//     id: 4,
-//     title: 'Commercial Center',
-//     category: ['commercial', 'retail' ],
-//     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop',
-//   },
-//   {
-//     id: 5,
-//     title: 'Coastal Apartments',
-//     category: ['residential', 'hospitality'],
-//     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop',
-//   },
-//   {
-//     id: 6,
-//     title: 'Cultural Center',
-//     category: ['civic-cultural', 'interiors'],
-//     image: 'https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&h=600&fit=crop',
-//   },
-// ];
-
-// const categories = [
-//   { id: 'all', label: 'ALL' },
-//   { id: 'residential', label: 'RESIDENTIAL' },
-//   { id: 'commercial', label: 'COMMERCIAL' },
-//   { id: 'civic-cultural', label: 'CIVIC & CULTURAL' },
-//   { id: 'education', label: 'EDUCATION' },
-//   { id: 'retail', label: 'RETAIL' },
-//   { id: 'interiors', label: 'INTERIORS' },
-//   { id: 'mixed-use', label: 'MIXED USE' },
-//   { id: 'hospitality', label: 'HOSPITALITY' },
-// ];
-
-// export default function PortfolioSection() {
-//   const [activeCategory, setActiveCategory] = useState('all');
-
-//   const filteredProjects = activeCategory === 'all' 
-//     ? portfolioProjects 
-//     : portfolioProjects.filter(project => project.category.includes(activeCategory));
-
-//   return (
-//     <section id="portfolio" className="py-20 md:py-32 bg-gray-900">
-//       <div className="container mx-auto px-6">
-//         {/* Section Title */}
-//         <h2 className="text-3xl md:text-4xl font-light text-white text-center mb-12 tracking-wide">
-//           DESIGN WITH DISTINCTION
-//         </h2>
-
-//         {/* Category Filter */}
-//         <div className="flex flex-wrap justify-center gap-4 mb-16">
-//           {categories.map((cat) => (
-//             <button
-//               key={cat.id}
-//               onClick={() => setActiveCategory(cat.id)}
-//               className={`px-4 py-2 text-xs md:text-sm font-light tracking-widest uppercase transition-colors ${
-//                 activeCategory === cat.id 
-//                   ? 'text-white border-b-2 border-white' 
-//                   : 'text-white/60 hover:text-white'
-//               }`}
-//             >
-//               {cat.label}
-//             </button>
-//           ))}
-//         </div>
-
-//         {/* Projects Grid */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-//           {filteredProjects.map((project) => (
-//             <div 
-//               key={project.id}
-//               className="group relative aspect-[4/3] overflow-hidden cursor-pointer"
-//             >
-//               <img 
-//                 src={project.image}
-//                 alt={project.title}
-//                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-//               />
-//               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                 <div className="absolute bottom-0 left-0 right-0 p-6">
-//                   <h3 className="text-white text-xl font-light tracking-wide">
-//                     {project.title}
-//                   </h3>
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-
-
 import { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-
-const portfolioProjects = [
-  { id: 1, title: 'Beachfront Residences', category: ['residential', 'mixed-use'], image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop' },
-  { id: 2, title: 'Modern Villa Estate', category: ['residential', 'education'], image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop' },
-  { id: 3, title: 'Luxury Waterfront Complex', category: ['residential', 'mixed-use'], image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop' },
-  { id: 4, title: 'Commercial Center', category: ['commercial', 'retail' ], image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop' },
-  { id: 5, title: 'Coastal Apartments', category: ['residential', 'hospitality'], image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop' },
-  { id: 6, title: 'Cultural Center', category: ['civic-cultural', 'interiors'], image: 'https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&h=600&fit=crop' },
-];
+import { Link } from 'react-router-dom';
+import { portfolioProjects } from '../../../data/portfolioProjects';
 
 const categories = [
   { id: 'all', label: 'ALL' },
   { id: 'residential', label: 'RESIDENTIAL' },
   { id: 'commercial', label: 'COMMERCIAL' },
-  { id: 'civic-cultural', label: 'CIVIC & CULTURAL' },
-  { id: 'mixed-use', label: 'MIXED USE' },
+  { id: 'interiors', label: 'INTERIORS' },
+  { id: 'hospitality', label: 'HOSPITALITY' },
 ];
 
 export default function PortfolioSection() {
@@ -194,7 +72,8 @@ export default function PortfolioSection() {
         {/* شبكة المشاريع */}
         <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
           {filteredProjects.map((project, index) => (
-            <div 
+            <Link
+              to={`/portfolio/${project.category[0]}`} 
               key={project.id}
               className="group relative aspect-square border-[0.5px] border-white/5 overflow-hidden cursor-pointer"
             >
@@ -230,15 +109,8 @@ export default function PortfolioSection() {
               {/* زوايا الديكور (Blueprint Corners) */}
               <div className="absolute top-0 right-0 w-4 h-4 border-t border-r border-white/0 group-hover:border-mainGold transition-all duration-500"></div>
               <div className="absolute bottom-0 left-0 w-4 h-4 border-b border-l border-white/0 group-hover:border-mainGold transition-all duration-500"></div>
-            </div>
+            </Link>
           ))}
-        </div>
-
-        {/* تذييل السكشن */}
-        <div className="mt-12 flex justify-between items-center text-[10px] font-mono text-white/20 tracking-[0.5em] uppercase">
-          <span>Kaller_Arch_Systems</span>
-          <span>Scroll to Explore_</span>
-          <span>Vers_2.0.26</span>
         </div>
       </div>
     </section>

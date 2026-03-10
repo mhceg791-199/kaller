@@ -1,11 +1,11 @@
-import AboutPage from "../../components/about/AboutPage/AboutPage";
+import ArchitectMasterpiece from "../../components/about/ArchitectMasterpiece/ArchitectMasterpiece";
 import OurStorySection from "../../components/about/OurStory/OurStory";
 
 function About() {
   return (
     <>
       <OurStorySection />
-      <AboutPage />
+      <ArchitectMasterpiece />
     </>
   );
 }

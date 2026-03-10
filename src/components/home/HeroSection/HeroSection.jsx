@@ -1,69 +1,15 @@
-// export default function HeroSection() {
-//   return (
-//     <section 
-//       id="home"
-//       className="relative h-screen flex items-center justify-start bg-cover bg-center"
-//       style={{
-//         backgroundImage: 'url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop)',
-//       }}
-//     >
-//       {/* Overlay */}
-//       <div className="absolute inset-0 bg-black/40" />
-      
-//       {/* Content */}
-//       <div className="relative container ms-20 px-6 md:px-12 max-w-2xl">
-//         <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-light mb-6 leading-tight tracking-wide">
-//           WE DESIGN YOUR FUTURE
-//         </h1>
-//         <p className="text-white/90 text-base md:text-lg leading-relaxed mb-8 max-w-xl">
-//           Established in 1984, Kaller Architecture was created as an architectural, space planning and corporate interior firm. 
-//           Located in the heart of South Florida, our team of architects and designers specialize in both residential and commercial projects.
-//         </p>
-//         <button className="px-8 py-3 border-2 border-white text-white hover:bg-white hover:text-gray-900 transition-all duration-300 text-sm font-light tracking-widest uppercase">
-//           VIEW PROJECTS
-//         </button>
-//       </div>
-//     </section>
-//   );
-// }
-
 import { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ArrowRight, ArrowLeft, Ruler } from "lucide-react";
+import { ArrowRight, ArrowLeft } from "lucide-react";
+import { slides } from "../../../data/slides";
+import { useNavigate } from "react-router-dom";
 
-const slides = [
-  {
-    title: "Designing What’s Next.",
-    highlight: "Since 1984.",
-    desc: "Architecture that shapes skylines, strengthens communities, and endures.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    title: "Four Decades of",
-    highlight: "Architectural Authority.",
-    desc: "Residential, commercial, civic, and mixed-use developments across South Florida.",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070",
-  },
-  {
-    title: "Built on Vision.",
-    highlight: "Driven by Precision.",
-    desc: "Where creativity meets code — and design meets performance.",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    title: "A Proud Subsidiary of",
-    highlight: "Mosaic Holding Corporation.",
-    desc: "Part of a global platform redefining architecture, engineering, and development.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2000",
-  }
-];
-
-const ArchitecturalHeroSlider = () => {
+const HeroSection = () => {
   const [current, setCurrent] = useState(0);
   const containerRef = useRef(null);
   const imageRef = useRef(null);
   const progressRef = useRef(null);
-
+  const nav = useNavigate();
   // أنيميشن الانتقال
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -139,7 +85,7 @@ const ArchitecturalHeroSlider = () => {
 
           {/* CTA Button */}
           <div className="animate-text pt-8">
-            <button className="group flex items-center gap-4 bg-mainGold text-mainColor px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-white hover:text-lightColor transition-all duration-500">
+            <button onClick={() => nav("/portfolio")} className="group flex items-center gap-4 bg-mainGold text-mainColor px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-white hover:text-lightColor transition-all duration-500">
               Explore Portfolio
               <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
             </button>
@@ -148,7 +94,7 @@ const ArchitecturalHeroSlider = () => {
       </div>
 
       {/* Sidebar Controls (Architectural Style) */}
-      <div className="absolute bottom-12 right-12 z-30 flex items-end gap-12">
+      <div className="absolute bottom-12 right-5 md:right-12 z-30 flex items-end gap-3 md:gap-12">
         
         {/* Slide Counter */}
         <div className="flex flex-col items-center gap-4">
@@ -196,4 +142,4 @@ const ArchitecturalHeroSlider = () => {
   );
 };
 
-export default ArchitecturalHeroSlider;
+export default HeroSection;

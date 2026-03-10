@@ -51,222 +51,222 @@ export const portfolioCategories = [
           "/portfolio/RESIDENTIAL/FILLMORE FLATS, HOLLYWOOD/FILLMORE FLATS, HOLLYWOOD 4.avif",
         ],
       },
-      // {
-      //   title: "GALLERIA LOFTS, FORT LAUDERDALE",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE.avif",
-      //     "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE 2.avif",
-      //     "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE 3.avif",
-      //     "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE 4.avif",
-      //   ],
-      // },
-      // {
-      //   title: "LINCOLN ST APARTMENTS",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/LINCOLN ST APARTMENTS/LINCOLN ST APARTMENTS.avif",
-      //     "/portfolio/RESIDENTIAL/LINCOLN ST APARTMENTS/LINCOLN ST APARTMENTS 2.avif",
-      //     "/portfolio/RESIDENTIAL/LINCOLN ST APARTMENTS/LINCOLN ST APARTMENTS 3.avif",
-      //   ],
-      // },
-      // {
-      //   title: "MADISON FLATS, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD 2.avif",
-      //     "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD 3.avif",
-      //     "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD 4.avif",
-      //   ],
-      // },
-      // {
-      //   title: "PIERCE STREET TOWNHOMES, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/PIERCE STREET TOWNHOMES, HOLLYWOOD/PIERCE STREET TOWNHOMES, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/PIERCE STREET TOWNHOMES, HOLLYWOOD/PIERCE STREET TOWNHOMES, HOLLYWOOD 2.avif",
-      //   ],
-      // },
-      // {
-      //   title: "RESIDENCE, HALLANDALE BEACH",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 2.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 3.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 4.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 5.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 6.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 7.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 8.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 9.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 10.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 11.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 12.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 13.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 14.avif",
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 15.avif",
-      //   ],
-      // },
-      // {
-      //   title: "SEA ISLAND DR., FORT LAUDERDALE",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 2.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 3.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 4.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 5.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 6.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 7.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 8.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 9.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 10.avif",
-      //     "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 11.avif",
-      //   ],
-      // },
-      // {
-      //   title: "SEASIDE VILLAGE, HOLLYWOOD BEACH",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH.avif",
-      //     "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH 2.avif",
-      //     "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH 3.avif",
-      //     // "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH 4.avif",
-      //   ],
-      // },
-      // {
-      //   title: "SUNSET HARBOR, HOLLYWOOD BEACH",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/SUNSET HARBOR, HOLLYWOOD BEACH/SUNSET HARBOR, HOLLYWOOD BEACH.avif",
-      //     "/portfolio/RESIDENTIAL/SUNSET HARBOR, HOLLYWOOD BEACH/SUNSET HARBOR, HOLLYWOOD BEACH 2.avif",
-      //     "/portfolio/RESIDENTIAL/SUNSET HARBOR, HOLLYWOOD BEACH/SUNSET HARBOR, HOLLYWOOD BEACH 3.avif",
-      //   ],
-      // },
-      // {
-      //   title: "THE PLAZA, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/THE PLAZA, HOLLYWOOD/THE PLAZA, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/THE PLAZA, HOLLYWOOD/THE PLAZA, HOLLYWOOD 2.avif",
-      //   ],
-      // },
-      // {
-      //   title: "THE WESLEY AT FILLMORE, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/THE WESLEY AT FILLMORE, HOLLYWOOD/THE WESLEY AT FILLMORE, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/THE WESLEY AT FILLMORE, HOLLYWOOD/THE WESLEY AT FILLMORE, HOLLYWOOD 3.avif",
-      //   ],
-      // },
-      // {
-      //   title: "TOWNHOUSE COMMUNITY, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/TOWNHOUSE COMMUNITY, HOLLYWOOD/TOWNHOUSE COMMUNITY, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/TOWNHOUSE COMMUNITY, HOLLYWOOD/TOWNHOUSE COMMUNITY, HOLLYWOOD 2.avif",
-      //   ],
-      // },
-      // {
-      //   title: "WASHINGTON ST APTS",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/WASHINGTON ST APTS/WASHINGTON ST APTS.avif",
-      //     "/portfolio/RESIDENTIAL/WASHINGTON ST APTS/WASHINGTON ST APTS 2.avif",
-      //   ],
-      // },
-      // {
-      //   title: "WESLEY AT FILLMORE, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/WESLEY AT FILLMORE, HOLLYWOOD/WESLEY AT FILLMORE, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/WESLEY AT FILLMORE, HOLLYWOOD/WESLEY AT FILLMORE, HOLLYWOOD 2.avif",
-      //   ],
-      // },
-      // {
-      //   title: "BALBOA, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/BALBOA, HOLLYWOOD.avif",
-      //     "/portfolio/RESIDENTIAL/BELLEMAR, HOLLYWOOD BEACH.avif",
-      //   ],
-      // },
-      // {
-      //   title: "BELLEMAR, HOLLYWOOD BEACH",
-      //   images: ["/portfolio/RESIDENTIAL/BELLEMAR, HOLLYWOOD BEACH.avif"],
-      // },
-      // {
-      //   title: "CASA LA PLAYA, HOLLYWOOD BEACH",
-      //   images: ["/portfolio/RESIDENTIAL/CASA LA PLAYA, HOLLYWOOD BEACH.avif"],
-      // },
-      // {
-      //   title: "DIPLOMAT PARKWAY, HOLLYWOOD",
-      //   images: ["/portfolio/RESIDENTIAL/DIPLOMAT PARKWAY, HOLLYWOOD.avif"],
-      // },
-      // {
-      //   title: "FEDERAL HIGHWAY, FORT LAUDERDALE",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/FEDERAL HIGHWAY, FORT LAUDERDALE.avif",
-      //   ],
-      // },
-      // {
-      //   title: "FORT LAUDERDALE",
-      //   images: ["/portfolio/RESIDENTIAL/FORT LAUDERDALE.avif"],
-      // },
-      // {
-      //   title: "FRONT",
-      //   images: ["/portfolio/RESIDENTIAL/FRONT.avif"],
-      // },
-      // {
-      //   title: "image010.avif",
-      //   images: ["/portfolio/RESIDENTIAL/image010.avif"],
-      // },
-      // {
-      //   title: "McKinley Townhomes",
-      //   images: ["/portfolio/RESIDENTIAL/McKinley Townhomes.avif"],
-      // },
-      // {
-      //   title: "MIRAMAR TOWNHOMES, MIRAMAR",
-      //   images: ["/portfolio/RESIDENTIAL/MIRAMAR TOWNHOMES, MIRAMAR.avif"],
-      // },
-      // {
-      //   title: "NORTH MIAMI TOWNHOMES, NORTH MIAMI",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/NORTH MIAMI TOWNHOMES, NORTH MIAMI.avif",
-      //   ],
-      // },
-      // {
-      //   title: "PARK VIEW FLATS, HOLLYWOOD",
-      //   images: ["/portfolio/RESIDENTIAL/PARK VIEW FLATS, HOLLYWOOD.avif"],
-      // },
-      // {
-      //   title: "Pierce Street Townhomes",
-      //   images: ["/portfolio/RESIDENTIAL/Pierce Street Townhomes.avif"],
-      // },
-      // {
-      //   title: "RESIDENCE BRICKELL",
-      //   images: ["/portfolio/RESIDENTIAL/RESIDENCE BRICKELL.avif"],
-      // },
-      // {
-      //   title: "RESIDENCE, FORT LAUDERDALE BEACH",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/RESIDENCE, FORT LAUDERDALE BEACH.avif",
-      //   ],
-      // },
-      // {
-      //   title: "RESIDENCE, HOLLYWOOD BEACH",
-      //   images: ["/portfolio/RESIDENTIAL/RESIDENCE, HOLLYWOOD BEACH.avif"],
-      // },
-      // {
-      //   title: "RESIDENCE, MIAMI BEACH",
-      //   images: ["/portfolio/RESIDENTIAL/RESIDENCE, MIAMI BEACH.avif"],
-      // },
-      // {
-      //   title: "SKY HARBOR, HOLLYWOOD BEACH",
-      //   images: ["/portfolio/RESIDENTIAL/SKY HARBOR, HOLLYWOOD BEACH.avif"],
-      // },
-      // {
-      //   title: "THE WESLEY AT JACKSON, HOLLYWOOD",
-      //   images: [
-      //     "/portfolio/RESIDENTIAL/THE WESLEY AT JACKSON, HOLLYWOOD.avif",
-      //   ],
-      // },
-      // {
-      //   title: "THE WESLEY AT TAYLOR, HOLLYWOOD",
-      //   images: ["/portfolio/RESIDENTIAL/THE WESLEY AT TAYLOR, HOLLYWOOD.avif"],
-      // },
-      // {
-      //   title: "WASHINGTON FLATS, HOLLYWOOD",
-      //   images: ["/portfolio/RESIDENTIAL/WASHINGTON FLATS, HOLLYWOOD.avif"],
-      // },
+      {
+        title: "GALLERIA LOFTS, FORT LAUDERDALE",
+        images: [
+          "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE.avif",
+          "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE 2.avif",
+          "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE 3.avif",
+          "/portfolio/RESIDENTIAL/GALLERIA LOFTS, FORT LAUDERDALE/GALLERIA LOFTS, FORT LAUDERDALE 4.avif",
+        ],
+      },
+      {
+        title: "LINCOLN ST APARTMENTS",
+        images: [
+          "/portfolio/RESIDENTIAL/LINCOLN ST APARTMENTS/LINCOLN ST APARTMENTS.avif",
+          "/portfolio/RESIDENTIAL/LINCOLN ST APARTMENTS/LINCOLN ST APARTMENTS 2.avif",
+          "/portfolio/RESIDENTIAL/LINCOLN ST APARTMENTS/LINCOLN ST APARTMENTS 3.avif",
+        ],
+      },
+      {
+        title: "MADISON FLATS, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD 2.avif",
+          "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD 3.avif",
+          "/portfolio/RESIDENTIAL/MADISON FLATS, HOLLYWOOD/MADISON FLATS, HOLLYWOOD 4.avif",
+        ],
+      },
+      {
+        title: "PIERCE STREET TOWNHOMES, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/PIERCE STREET TOWNHOMES, HOLLYWOOD/PIERCE STREET TOWNHOMES, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/PIERCE STREET TOWNHOMES, HOLLYWOOD/PIERCE STREET TOWNHOMES, HOLLYWOOD 2.avif",
+        ],
+      },
+      {
+        title: "RESIDENCE, HALLANDALE BEACH",
+        images: [
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 2.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 3.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 4.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 5.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 6.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 7.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 8.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 9.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 10.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 11.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 12.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 13.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 14.avif",
+          "/portfolio/RESIDENTIAL/RESIDENCE, HALLANDALE BEACH/RESIDENCE, HALLANDALE BEACH 15.avif",
+        ],
+      },
+      {
+        title: "SEA ISLAND DR., FORT LAUDERDALE",
+        images: [
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 2.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 3.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 4.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 5.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 6.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 7.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 8.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 9.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 10.avif",
+          "/portfolio/RESIDENTIAL/SEA ISLAND DR., FORT LAUDERDALE/SEA ISLAND DR., FORT LAUDERDALE 11.avif",
+        ],
+      },
+      {
+        title: "SEASIDE VILLAGE, HOLLYWOOD BEACH",
+        images: [
+          "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH.avif",
+          "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH 2.avif",
+          "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH 3.avif",
+          // "/portfolio/RESIDENTIAL/SEASIDE VILLAGE, HOLLYWOOD BEACH/SEASIDE VILLAGE, HOLLYWOOD BEACH 4.avif",
+        ],
+      },
+      {
+        title: "SUNSET HARBOR, HOLLYWOOD BEACH",
+        images: [
+          "/portfolio/RESIDENTIAL/SUNSET HARBOR, HOLLYWOOD BEACH/SUNSET HARBOR, HOLLYWOOD BEACH.avif",
+          "/portfolio/RESIDENTIAL/SUNSET HARBOR, HOLLYWOOD BEACH/SUNSET HARBOR, HOLLYWOOD BEACH 2.avif",
+          "/portfolio/RESIDENTIAL/SUNSET HARBOR, HOLLYWOOD BEACH/SUNSET HARBOR, HOLLYWOOD BEACH 3.avif",
+        ],
+      },
+      {
+        title: "THE PLAZA, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/THE PLAZA, HOLLYWOOD/THE PLAZA, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/THE PLAZA, HOLLYWOOD/THE PLAZA, HOLLYWOOD 2.avif",
+        ],
+      },
+      {
+        title: "THE WESLEY AT FILLMORE, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/THE WESLEY AT FILLMORE, HOLLYWOOD/THE WESLEY AT FILLMORE, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/THE WESLEY AT FILLMORE, HOLLYWOOD/THE WESLEY AT FILLMORE, HOLLYWOOD 3.avif",
+        ],
+      },
+      {
+        title: "TOWNHOUSE COMMUNITY, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/TOWNHOUSE COMMUNITY, HOLLYWOOD/TOWNHOUSE COMMUNITY, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/TOWNHOUSE COMMUNITY, HOLLYWOOD/TOWNHOUSE COMMUNITY, HOLLYWOOD 2.avif",
+        ],
+      },
+      {
+        title: "WASHINGTON ST APTS",
+        images: [
+          "/portfolio/RESIDENTIAL/WASHINGTON ST APTS/WASHINGTON ST APTS.avif",
+          "/portfolio/RESIDENTIAL/WASHINGTON ST APTS/WASHINGTON ST APTS 2.avif",
+        ],
+      },
+      {
+        title: "WESLEY AT FILLMORE, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/WESLEY AT FILLMORE, HOLLYWOOD/WESLEY AT FILLMORE, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/WESLEY AT FILLMORE, HOLLYWOOD/WESLEY AT FILLMORE, HOLLYWOOD 2.avif",
+        ],
+      },
+      {
+        title: "BALBOA, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/BALBOA, HOLLYWOOD.avif",
+          "/portfolio/RESIDENTIAL/BELLEMAR, HOLLYWOOD BEACH.avif",
+        ],
+      },
+      {
+        title: "BELLEMAR, HOLLYWOOD BEACH",
+        images: ["/portfolio/RESIDENTIAL/BELLEMAR, HOLLYWOOD BEACH.avif"],
+      },
+      {
+        title: "CASA LA PLAYA, HOLLYWOOD BEACH",
+        images: ["/portfolio/RESIDENTIAL/CASA LA PLAYA, HOLLYWOOD BEACH.avif"],
+      },
+      {
+        title: "DIPLOMAT PARKWAY, HOLLYWOOD",
+        images: ["/portfolio/RESIDENTIAL/DIPLOMAT PARKWAY, HOLLYWOOD.avif"],
+      },
+      {
+        title: "FEDERAL HIGHWAY, FORT LAUDERDALE",
+        images: [
+          "/portfolio/RESIDENTIAL/FEDERAL HIGHWAY, FORT LAUDERDALE.avif",
+        ],
+      },
+      {
+        title: "FORT LAUDERDALE",
+        images: ["/portfolio/RESIDENTIAL/FORT LAUDERDALE.avif"],
+      },
+      {
+        title: "FRONT",
+        images: ["/portfolio/RESIDENTIAL/FRONT.avif"],
+      },
+      {
+        title: "image010.avif",
+        images: ["/portfolio/RESIDENTIAL/image010.avif"],
+      },
+      {
+        title: "McKinley Townhomes",
+        images: ["/portfolio/RESIDENTIAL/McKinley Townhomes.avif"],
+      },
+      {
+        title: "MIRAMAR TOWNHOMES, MIRAMAR",
+        images: ["/portfolio/RESIDENTIAL/MIRAMAR TOWNHOMES, MIRAMAR.avif"],
+      },
+      {
+        title: "NORTH MIAMI TOWNHOMES, NORTH MIAMI",
+        images: [
+          "/portfolio/RESIDENTIAL/NORTH MIAMI TOWNHOMES, NORTH MIAMI.avif",
+        ],
+      },
+      {
+        title: "PARK VIEW FLATS, HOLLYWOOD",
+        images: ["/portfolio/RESIDENTIAL/PARK VIEW FLATS, HOLLYWOOD.avif"],
+      },
+      {
+        title: "Pierce Street Townhomes",
+        images: ["/portfolio/RESIDENTIAL/Pierce Street Townhomes.avif"],
+      },
+      {
+        title: "RESIDENCE BRICKELL",
+        images: ["/portfolio/RESIDENTIAL/RESIDENCE BRICKELL.avif"],
+      },
+      {
+        title: "RESIDENCE, FORT LAUDERDALE BEACH",
+        images: [
+          "/portfolio/RESIDENTIAL/RESIDENCE, FORT LAUDERDALE BEACH.avif",
+        ],
+      },
+      {
+        title: "RESIDENCE, HOLLYWOOD BEACH",
+        images: ["/portfolio/RESIDENTIAL/RESIDENCE, HOLLYWOOD BEACH.avif"],
+      },
+      {
+        title: "RESIDENCE, MIAMI BEACH",
+        images: ["/portfolio/RESIDENTIAL/RESIDENCE, MIAMI BEACH.avif"],
+      },
+      {
+        title: "SKY HARBOR, HOLLYWOOD BEACH",
+        images: ["/portfolio/RESIDENTIAL/SKY HARBOR, HOLLYWOOD BEACH.avif"],
+      },
+      {
+        title: "THE WESLEY AT JACKSON, HOLLYWOOD",
+        images: [
+          "/portfolio/RESIDENTIAL/THE WESLEY AT JACKSON, HOLLYWOOD.avif",
+        ],
+      },
+      {
+        title: "THE WESLEY AT TAYLOR, HOLLYWOOD",
+        images: ["/portfolio/RESIDENTIAL/THE WESLEY AT TAYLOR, HOLLYWOOD.avif"],
+      },
+      {
+        title: "WASHINGTON FLATS, HOLLYWOOD",
+        images: ["/portfolio/RESIDENTIAL/WASHINGTON FLATS, HOLLYWOOD.avif"],
+      },
       {
         title: "Wesley at Fillmore 2",
         images: ["/portfolio/RESIDENTIAL/Wesley at Fillmore 2.avif"],

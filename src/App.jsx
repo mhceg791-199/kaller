@@ -9,11 +9,10 @@ import Layout from "./Layout";
 import About from "./pages/about/about";
 import ScrollToTopButton from "./components/shared/ScrollToTopButton/ScrollToTopButton";
 import ContactUs from "./pages/ContactUs/ContactUs";
-import Terms from "./pages/Terms/Terms";
-import Privacy from "./pages/Privacy/Privacy";
 import PortfolioPage from "./pages/Portfolio/Portfolio";
 import Exchang from "./pages/Exchange/Exchang";
 import PortfolioCategory from "./pages/PortfolioCategory/PortfolioCategory";
+import ScrollToTop from "./components/shared/ScrollToTop/ScrollToTop";
 
 
 function App() {
@@ -32,14 +31,14 @@ function App() {
                 <Route path="exchange" element={<Exchang />} />
 
 
-                <Route path="contact-us" element={<ContactUs />} />
-                <Route path="terms" element={<Terms />} />
-                <Route path="privacy" element={<Privacy />} />
+                <Route path="contact" element={<ContactUs />} />
+
               </Routes>
             </Layout>
           }
         />
       </Routes>
+      <ScrollToTop/>
       <ScrollToTopButton />
     </>
   );
