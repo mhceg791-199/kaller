@@ -10,11 +10,6 @@ function ContactMapDetails() {
           className="w-full h-full object-cover grayscale brightness-50 opacity-60" 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
-        {/* علامة الموقع التزيينية */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-           <div className="w-4 h-4 bg-mainGold rounded-full animate-ping absolute"></div>
-           <div className="w-4 h-4 bg-mainGold rounded-full relative"></div>
-        </div>
       </div>
 
       <div className="py-8 px-8 md:px-10">

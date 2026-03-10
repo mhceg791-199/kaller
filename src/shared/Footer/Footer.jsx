@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 // Pinterest Icon (custom SVG since it's not in lucide-react)
 const PinterestIcon = () => (
@@ -68,37 +69,34 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex items-center space-x-4 mb-8">
-              <a
-                href="#"
-                className="text-white/70 hover:text-white transition-colors"
+              <Link
+                target="_blank"
+                to="https://www.pinterest.com/kallerarchitects/"
+                className="text-mainColor rounded-full p-2 text-3xl"
                 aria-label="Pinterest"
               >
                 <PinterestIcon />
-              </a>
+              </Link>
 
-              <a
-                href="#"
-                className="text-white/70 hover:text-white transition-colors"
-                aria-label="Instagram"
+              <Link
+                target="_blank"
+                to="https://www.instagram.com/kallerarchitects"
               >
-                <Instagram className="w-5 h-5" />
-              </a>
+                <i className="fa-brands fa-instagram text-mainColor rounded-full p-2 text-2xl"></i>
+              </Link>
 
-              <a
-                href="#"
-                className="text-white/70 hover:text-white transition-colors"
-                aria-label="Facebook"
+              <Link
+                target="_blank"
+                to="https://www.facebook.com/kallerarchitects"
               >
-                <Facebook className="w-5 h-5" />
-              </a>
+                <i className="fa-brands fa-facebook text-mainColor rounded-full p-2 text-2xl"></i>
+              </Link>
 
-              <a
-                href="#"
-                className="text-white/70 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
+              <div className="col-span-1 mx-2  flex justify-center items-center">
+                <Link target="_blank" to="https://x.com/kallerarchitect">
+                  <i className="fa-brands fa-x-twitter text-mainColor rounded-full p-2 text-2xl"></i>
+                </Link>
+              </div>
             </div>
 
             <a
