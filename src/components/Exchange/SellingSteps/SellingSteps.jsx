@@ -60,7 +60,7 @@ export default function SellingSteps() {
   return (
     <section
       ref={sectionRef}
-      className="py-6 bg-lightColor overflow-hidden relative"
+      className="py-6 bg-darkColor overflow-hidden relative"
     >
       {/* شبكة هندسية بلمسة ذهبية خافتة جداً */}
       <div

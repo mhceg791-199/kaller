@@ -48,7 +48,7 @@ const ArchitecturalIntro = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-lightColor text-white py-10 md:py-12 px-6 overflow-hidden"
+      className="relative bg-darkColor text-white py-10 md:py-12 px-6 overflow-hidden"
     >
       {/* Blueprint Grid Overlay */}
       <div

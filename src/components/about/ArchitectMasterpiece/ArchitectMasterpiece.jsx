@@ -60,7 +60,7 @@ export default function ArchitectMasterpiece() {
   return (
     <div
       ref={mainRef}
-      className="bg-lightColor text-mainColor min-h-screen font-light selection:bg-mainGold/30 overflow-x-hidden"
+      className="bg-darkColor text-mainColor min-h-screen font-light selection:bg-mainGold/30 overflow-x-hidden"
     >
       <div className="fixed left-4 md:left-10 top-0 h-full w-[1px] bg-white/5 z-0"></div>
       <div className="measuring-line fixed left-4 md:left-10 top-0 w-[2px] bg-mainGold z-10 shadow-[0_0_15px_rgba(234,88,12,0.5)]"></div>

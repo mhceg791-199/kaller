@@ -2,14 +2,14 @@ import map from "../../../assets/world-map-gold.jpg";
 
 function ContactMapDetails() {
   return (
-    <div className="w-full bg-[#0f0f0f] text-white rounded-2xl overflow-hidden shadow-2xl border border-white/5">
+    <div className="w-full bg-darkColor text-white rounded-2xl overflow-hidden shadow-2xl border border-white/5">
       <div className="relative w-full h-64 md:h-72">
-        <img 
+        <img
           src={map} 
           alt="map" 
           className="w-full h-full object-cover grayscale brightness-50 opacity-60" 
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-darkColor to-transparent"></div>
       </div>
 
       <div className="py-8 px-8 md:px-10">

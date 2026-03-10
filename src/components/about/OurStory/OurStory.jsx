@@ -52,7 +52,7 @@ const OurStory = () => {
   return (
     <section
       ref={containerRef}
-      className="relative bg-lightColor text-white py-16 md:py-24 overflow-hidden"
+      className="relative bg-darkColor text-white py-16 md:py-24 overflow-hidden"
     >
       {/* Background Video Layer */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">

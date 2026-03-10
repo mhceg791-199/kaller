@@ -110,11 +110,11 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* الجزء النصي */}
         <div ref={textRef} className="relative z-10">
-          <div ref={lineRef} className="h-[2px] bg-lightColor mb-8 w-24" />
+          <div ref={lineRef} className="h-[2px] bg-darkColor mb-8 w-24" />
 
           <h2 className="about-text text-5xl md:text-7xl font-black text-mainColor mb-8 leading-tight uppercase">
             Catering to <br />
-            <span className="text-lightColor italic font-serif">
+            <span className="text-darkColor italic font-serif">
               Your Vision.
             </span>
           </h2>
@@ -181,7 +181,7 @@ const AboutSection = () => {
           </div>
 
           {/* الكتلة المتداخلة الصغير (The Detail) */}
-          <div className="about-image absolute left-0 bottom-0 w-3/5 h-1/2 bg-lightColor p-1 shadow-2xl z-20">
+          <div className="about-image absolute left-0 bottom-0 w-3/5 h-1/2 bg-darkColor p-1 shadow-2xl z-20">
             <div className="w-full h-full bg-white overflow-hidden relative">
               <img
                 src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800"
@@ -194,7 +194,7 @@ const AboutSection = () => {
           </div>
 
           {/* عناصر ديكورية هندسية */}
-          <div className="about-image absolute -right-4 -bottom-4 w-24 h-24 border-r-2 border-b-2 border-lightColor" />
+          <div className="about-image absolute -right-4 -bottom-4 w-24 h-24 border-r-2 border-b-2 border-darkColor" />
         </div>
       </div>
     </section>

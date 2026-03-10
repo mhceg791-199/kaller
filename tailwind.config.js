@@ -7,7 +7,7 @@ export default withMT({
     extend: {
       colors: {
         mainColor: "#e7e7e7",
-        lightColor: "#000000",
+        darkColor: "#000000",
         mainGold: "#C5A363",
       },
     },

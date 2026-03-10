@@ -47,7 +47,7 @@ const HeroSection = () => {
   const prevSlide = () => setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
 
   return (
-    <div ref={containerRef} className="relative h-screen w-full bg-lightColor overflow-hidden font-sans">
+    <div ref={containerRef} className="relative h-screen w-full bg-darkColor overflow-hidden font-sans">
       
       {/* Background Grid Lines (Architectural Blueprint Feel) */}
       <div className="absolute inset-0 z-10 opacity-10 pointer-events-none" 
@@ -85,7 +85,7 @@ const HeroSection = () => {
 
           {/* CTA Button */}
           <div className="animate-text pt-8">
-            <button onClick={() => nav("/portfolio")} className="group flex items-center gap-4 bg-mainGold text-mainColor px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-white hover:text-lightColor transition-all duration-500">
+            <button onClick={() => nav("/portfolio")} className="group flex items-center gap-4 bg-mainGold text-mainColor px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-white hover:text-darkColor transition-all duration-500">
               Explore Portfolio
               <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
             </button>

@@ -80,7 +80,7 @@ export function SidebarWithBurgerMenu() {
                       setIsDrawerOpen(false);
                     }}
                     color="white"
-                    className={`mr-auto font-normal text-lightColor itemText ${
+                    className={`mr-auto font-normal text-darkColor itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >
@@ -112,7 +112,7 @@ export function SidebarWithBurgerMenu() {
                       setIsDrawerOpen(false);
                     }}
                     color="white"
-                    className={`mr-auto font-normal text-lightColor  itemText ${
+                    className={`mr-auto font-normal text-darkColor  itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >
@@ -145,7 +145,7 @@ export function SidebarWithBurgerMenu() {
                       setIsDrawerOpen(false);
                     }}
                     color="white"
-                    className={`mr-auto text-lightColor  font-normal itemText ${
+                    className={`mr-auto text-darkColor  font-normal itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >
@@ -177,7 +177,7 @@ export function SidebarWithBurgerMenu() {
                       setIsDrawerOpen(false);
                     }}
                     color="white"
-                    className={`mr-auto font-normal text-lightColor  itemText ${
+                    className={`mr-auto font-normal text-darkColor  itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >
@@ -210,7 +210,7 @@ export function SidebarWithBurgerMenu() {
                       setIsDrawerOpen(false);
                     }}
                     color="white"
-                    className={`mr-auto font-normal text-lightColor  itemText ${
+                    className={`mr-auto font-normal text-darkColor  itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >
@@ -239,7 +239,7 @@ export function SidebarWithBurgerMenu() {
                   <Typography
                     onClick={() => handleNavigate("/privacy")}
                     color="white"
-                    className={`mr-auto font-normal text-lightColor  itemText ${
+                    className={`mr-auto font-normal text-darkColor  itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >
@@ -266,7 +266,7 @@ export function SidebarWithBurgerMenu() {
                   <Typography
                     onClick={() => handleNavigate("/terms")}
                     color="white"
-                    className={`mr-auto font-normal text-lightColor  itemText ${
+                    className={`mr-auto font-normal text-darkColor  itemText ${
                       open === 1 ? "text-mainGold" : ""
                     }`}
                   >

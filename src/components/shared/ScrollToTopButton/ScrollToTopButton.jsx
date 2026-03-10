@@ -32,7 +32,7 @@ function ScrollToTopButton() {
     >
       <button
         onClick={scrollToTop}
-        className="bg-mainColor border-lightColor border-[3px] text-lightColor w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300"
+        className="bg-mainColor border-darkColor border-[3px] text-darkColor w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300"
       >
         <ArrowUpIcon className="w-6 h-6" />
       </button>
