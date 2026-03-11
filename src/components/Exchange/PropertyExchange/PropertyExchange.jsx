@@ -69,15 +69,15 @@ export default function PropertyExchange() {
 
       <div
         ref={contentRef}
-        className="container mx-auto px-6 relative z-10 mt-10 md:mt-0"
+        className="container mx-auto px-6 relative z-10 mt-3 md:mt-0"
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-12 gap-10 md:gap-16 lg:items-center">
             {/* المحتوى النصي */}
             <div className="lg:col-span-7">
-              <h1 className="reveal-item text-5xl sm:text-6xl md:text-8xl font-black text-white tracking-tighter mb-8 leading-[0.9]">
-                PROPERTY <br />
-                <span className="text-transparent stroke-text opacity-50 block md:inline">
+              <h1 className="reveal-item text-xl md:text-3xl font-black text-white tracking-tighter my-4 md:my-10 leading-[0.9]">
+                PROPERTY {" "}
+                <span className="stroke-text opacity-50 block md:inline">
                   EXCHANGE
                 </span>
               </h1>
@@ -85,17 +85,24 @@ export default function PropertyExchange() {
               <div className="reveal-item space-y-6 md:space-y-8 text-zinc-300 font-light leading-relaxed text-base md:text-lg border-l-2 border-mainGold/20 pl-6 md:pl-10 max-w-2xl">
                 <p className="text-mainColor">
                   Our firm has been working closely with property owners for
-                  more than{" "}
-                  <span className="text-white font-medium underline decoration-mainGold/30 underline-offset-4">
-                    30 years
-                  </span>{" "}
-                  as their architect and partner of choice.
+                  more than 30 years as their architect and partner of choice.
+                  We have built strong relationships with our clients which has
+                  led to an extensive network in the real estate market of South
+                  Florida.
                 </p>
                 <p className="text-mainColor">
-                  We have launched our own property exchange where interested
-                  parties can both{" "}
+                  After years of being asked for available real estate projects
+                  from hundreds of clients, we have decided to launch our own
+                  property exchange where interested parties can both{" "}
                   <span className="text-white italic">buy and sell</span> real
                   estate in one place.
+                </p>
+                <p className="text-mainColor">
+                  The service is free to list properties with the listed Agents
+                  below. If interested in purchasing a project, the listed Real
+                  Estate Agents shown below will create an introduction and
+                  facilitate the transaction which would thus require a real
+                  estate sales commission.
                 </p>
 
                 <div className="bg-white/5 p-4 md:p-6 border border-white/10 backdrop-blur-md">
