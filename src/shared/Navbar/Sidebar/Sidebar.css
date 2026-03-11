@@ -1,9 +1,0 @@
-.item:hover .borderIcon {
-    border: 1px;
-    border: 1px solid gainsboro;
-}
-
-.mainItem:hover .itemText {
-    color: var(--mainGold);
-}
-

@@ -1,4 +1,4 @@
-import Footer from "./shared/Footer/Footer";
+import Footer from "./components/shared/Footer/Footer";
 import Navbar from "./components/shared/Navbar/Navbar";
 
 function Layout({ children }) {
