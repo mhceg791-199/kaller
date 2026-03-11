@@ -74,7 +74,7 @@ export default function BuyingSteps() {
 
       <div className="container mx-auto px-6 relative">
         {/* العنوان الرئيسي */}
-        <div className="text-center mb-24">
+        <div className="text-center mb-12">
           <h2 className="text-7xl md:text-9xl font-black tracking-tighter uppercase flex justify-center overflow-hidden text-white">
             {"BUYING".split("").map((char, i) => (
               <span key={i} className="buying-letter inline-block">

@@ -74,7 +74,7 @@ export default function SellingSteps() {
 
       <div className="container mx-auto px-6 relative">
         {/* العنوان الرئيسي */}
-        <div className="text-center mb-24">
+        <div className="text-center mb-12">
           <h2 className="text-7xl md:text-9xl font-black tracking-tighter uppercase flex justify-center overflow-hidden text-white">
             {"SELLING".split("").map((char, i) => (
               <span key={i} className="title-letter inline-block">
