@@ -1,13 +1,11 @@
-import { awardItems } from "../../../data/awardItems";
+import { awardItems } from "../../../../data/awardItems";
 
-export default function AwardsRecognition() {
+const AwardsContent = () => {
   return (
-    // تم تغيير h-[80vh] إلى min-h-screen أو h-auto لضمان عدم قص المحتوى في الموبايل
-    <section className="relative min-h-screen md:h-[80vh] flex items-center bg-white text-black py-12 md:py-20 px-6 md:px-12 lg:px-10 overflow-hidden">
-      <div className="relative z-10 max-w-7xl mx-auto w-full">
+    <div className="relative z-10 max-w-7xl mx-auto w-full">
         
         <div className="text-center mb-10">
-          <h2 className="text-xs sm:text-sm md:text-xl font-light tracking-[0.3em] uppercase text-gray-400">
+          <h2 className="text-base sm:text-base md:text-xl font-light tracking-[0.3em] uppercase text-gray-400">
             AWARDS & RECOGNITION
           </h2>
         </div>
@@ -47,11 +45,7 @@ export default function AwardsRecognition() {
           </p>
         </div>
       </div>
-
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-48 h-48 md:w-96 md:h-96 bg-mainGold/5 md:bg-mainGold/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 md:w-96 md:h-96 bg-mainGold/5 md:bg-mainGold/10 rounded-full blur-3xl" />
-      </div>
-    </section>
   );
-}
+};
+
+export default AwardsContent;

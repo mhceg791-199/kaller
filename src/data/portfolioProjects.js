@@ -39,3 +39,11 @@ export const portfolioProjects = [
       "/portfolio/INTERIORS/SKY HARBOR, HOLLYWOOD BEACH/SKY HARBOR, HOLLYWOOD BEACH 4.avif",
   },
 ];
+
+export const portfolioCategoriesSection = [
+  { id: "all", label: "ALL" },
+  { id: "residential", label: "RESIDENTIAL" },
+  { id: "commercial", label: "COMMERCIAL" },
+  { id: "interiors", label: "INTERIORS" },
+  { id: "hospitality", label: "HOSPITALITY" },
+];
