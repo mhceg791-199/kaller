@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Upload, Send, CheckCircle } from "lucide-react";
 
+
+
 export default function ApplicationForm() {
   const [formData, setFormData] = useState({
     name: "",
