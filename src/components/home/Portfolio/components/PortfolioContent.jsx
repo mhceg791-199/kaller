@@ -16,7 +16,7 @@ const PortfolioContent = ({
 
           <div className="flex items-center gap-4 mb-4">
             <span className="h-[1px] w-12 bg-mainGold"></span>
-            <span className="text-mainGold font-mono text-sm tracking-[0.3em]">
+            <span className="text-mainGold font-mono text-sm md:text-base tracking-[0.3em]">
               Kaller Architecture Project
             </span>
           </div>

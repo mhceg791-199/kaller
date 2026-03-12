@@ -11,7 +11,7 @@ export default function Owner() {
             className="w-full h-full object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-[2s]"
           />
         </div>
-        <div className="lg:col-span-7 p-6 md:p-12 lg:p-20 flex flex-col justify-center space-y-6 md:space-y-8">
+        <div className="lg:col-span-7 p-6 md:p-12 lg:px-20 lg:py-2 flex flex-col justify-center space-y-6 md:space-y-8">
           <div>
             <span className="text-mainGold tracking-[0.4em] text-[10px] font-bold uppercase block mb-2">
               Owner & President
@@ -23,22 +23,28 @@ export default function Owner() {
               AIA, LEED, AP BD+C
             </p>
           </div>
-          <div className="space-y-6 text-zinc-400 font-light leading-relaxed text-sm md:text-lg max-w-xl">
+          <div className="space-y-5 text-mainColor font-light leading-relaxed text-sm md:text-lg max-w-xl">
             <p>
               Joe founded Kaller Architecture in 1984 with a strong passion for
               architecture in South Florida. He graduated{" "}
               <span className="text-white italic">Summa Cum Laude</span> from
-              the University of Miami.
+              the University of Miami with a degree in Architecture.
             </p>
             <p className="pl-4 md:pl-6 border-l-2 border-mainGold/30 italic">
               Joe is a licensed Architect and an active member of the American
-              Institute of Architects.
+              Institute of Architects and holds a LEED certification.
             </p>
             <p>
               After 40+ years, Joe focuses on maintaining close communication
-              with clients and providing expert advice.
+              with clients and providing expert advice and ultimately creating a
+              long-lasting and successful real estate project.
             </p>
-            <div className="pt-6 md:pt-8">
+            <p>
+              He has been an integral part of thousands of real estate projects
+              that have influenced growth in Broward County, Miami-Dade County,
+              Palm Beach County and Monroe County.
+            </p>
+            <div className="pt-4 md:pt-1">
               <a
                 href="mailto:joseph@kallerarchitects.com"
                 className="group flex items-center gap-4 md:gap-6"

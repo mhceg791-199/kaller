@@ -13,6 +13,7 @@ import PortfolioPage from "./pages/Portfolio/Portfolio";
 import Exchang from "./pages/Exchange/Exchang";
 import PortfolioCategory from "./pages/PortfolioCategory/PortfolioCategory";
 import ScrollToTop from "./components/shared/ScrollToTop/ScrollToTop";
+import Apply from "./pages/Apply/Apply";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                 <Route path="portfolio" element={<PortfolioPage />} />
                 <Route path="portfolio/:slug" element={<PortfolioCategory />} />
                 <Route path="exchange" element={<Exchang />} />
+                <Route path="apply" element={<Apply />} />
 
 
                 <Route path="contact" element={<ContactUs />} />

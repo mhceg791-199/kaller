@@ -55,6 +55,9 @@ export default function Navbar() {
             <Link to="/exchange" className="nav-link">
               Exchange
             </Link>
+            <Link to="/apply" className="nav-link">
+              Apply
+            </Link>
             <Link to="/contact" className="nav-link">
               Contact
             </Link>
