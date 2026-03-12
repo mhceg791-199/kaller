@@ -5,11 +5,9 @@ import WhyJoinUs from "../../components/apply/WhyJoinUs/WhyJoinUs";
 
 export default function Apply() {
   return (
-    <div className="e">
+    <>
       <JoinUsHero />
       <WhyJoinUs />
-
-      {/* Application Form Section */}
       <ApplicationForm/>
 
       {/* Bottom CTA */}
@@ -30,6 +28,6 @@ export default function Apply() {
           </a>
         </div>
       </section>
-    </div>
+    </>
   );
 }
