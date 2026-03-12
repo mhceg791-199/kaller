@@ -14,6 +14,7 @@ import Exchang from "./pages/Exchange/Exchang";
 import PortfolioCategory from "./pages/PortfolioCategory/PortfolioCategory";
 import ScrollToTop from "./components/shared/ScrollToTop/ScrollToTop";
 import Apply from "./pages/Apply/Apply";
+// import Apply from "./pages/Apply/Apply";
 
 
 function App() {
