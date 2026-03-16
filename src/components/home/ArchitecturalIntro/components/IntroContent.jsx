@@ -37,7 +37,7 @@ const IntroContent = ({ lineRef }) => {
       <div className="lg:col-span-6 space-y-12 md:px-4">
         <p className="reveal-text text-lg md:text-xl text-gray-300 font-light leading-relaxed border-r-2 border-mainGold/20 pr-8">
           Founded in 1984,{" "}
-          <strong className="text-white">Kaller Architecture</strong>
+          <strong className="text-white">Kaller Architecture</strong>{" "}
           has shaped the evolving landscape of South Florida through disciplined
           design, technical precision, and enduring partnerships.
         </p>

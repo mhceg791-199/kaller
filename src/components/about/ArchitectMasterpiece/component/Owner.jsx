@@ -30,7 +30,7 @@ export default function Owner() {
               <span className="text-white italic">Summa Cum Laude</span> from
               the University of Miami with a degree in Architecture.
             </p>
-            <p className="pl-4 md:pl-6 border-l-2 border-mainGold/30 italic">
+            <p>
               Joe is a licensed Architect and an active member of the American
               Institute of Architects and holds a LEED certification.
             </p>

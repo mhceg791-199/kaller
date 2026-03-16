@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from '../../../assets/logo/KA3.png';
+import logo from '../../../assets/logo/ka2.avif';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,7 +34,7 @@ export default function Navbar() {
             <img
               src={logo}
               alt="Kaller Architecture Logo"
-              className="w-[65%] md:w-[25%] object-contain"
+              className="w-[65%] md:w-[50%] object-contain"
             />
           </Link>
 

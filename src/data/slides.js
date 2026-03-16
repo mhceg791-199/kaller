@@ -2,7 +2,7 @@ export const slides = [
   {
     title: "Designing What’s Next.",
     highlight: "Since 1984.",
-    desc: "Architecture that shapes skylines, strengthens communities, and endures.",
+    desc: "Architecture that shapes skylines and strengthens communities.",
     image:
       "/home/hero/hero-1.avif",
   },
