@@ -21,7 +21,7 @@ export default function Apply() {
             careers at Kaller Architecture
           </p>
           <a
-            href="mailto:careers@kallerarchitects.com"
+            href="mailto:joseph@kallerarchitects.com"
             className="inline-block px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
           >
             Contact HR Team
