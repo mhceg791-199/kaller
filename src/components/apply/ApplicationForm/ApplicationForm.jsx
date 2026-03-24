@@ -353,7 +353,7 @@ export default function ApplicationForm() {
     data.append("resume", resume);
 
     try {
-      const res = await fetch("http://localhost:5000/api/appliactions/apply", {
+      const res = await fetch("https://mhc-backend-ten.vercel.app/api/appliactions/apply", {
         method: "POST",
         body: data,
       });
