@@ -401,7 +401,7 @@ export default function ApplicationForm() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
-              SHOW US WHO YOU ARE
+              TELL US
             </h2>
             <p className="text-xl text-gray-600">
               Submit your application and let's build something great together
