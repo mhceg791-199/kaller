@@ -302,6 +302,8 @@ export default function ApplicationForm() {
     experience: "",
     portfolio: "",
     coverLetter: "",
+    siteName: "Kaller Architecture",
+    siteURL: "https://www.kallerarchitects.com"
   });
 
   const [resume, setResume] = useState(null);
@@ -351,6 +353,8 @@ export default function ApplicationForm() {
     data.append("portfolio", formData.portfolio);
     data.append("coverLetter", formData.coverLetter);
     data.append("resume", resume);
+    data.append("siteName", "Kaller Architecture");
+    data.append("siteURL", "https://www.kallerarchitects.com");
 
     try {
       const res = await fetch("https://mhc-backend-ten.vercel.app/api/appliactions/apply", {
@@ -375,6 +379,8 @@ export default function ApplicationForm() {
         experience: "",
         portfolio: "",
         coverLetter: "",
+        siteName: "Kaller Architecture",
+        siteURL: "https://www.kallerarchitects.com"
       });
       setResume(null);
     } catch (err) {
